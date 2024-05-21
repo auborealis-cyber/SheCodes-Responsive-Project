@@ -9,6 +9,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p,
 a {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -62,4 +63,14 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
 }
 .top-projects img:hover{
     transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+.primary-link {
+    padding: 5px;
+    font-size: 15px;
+}
+footer{
+        font-size: 10px;
+    }
 }
