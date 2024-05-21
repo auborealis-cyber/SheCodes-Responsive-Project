@@ -17,10 +17,18 @@ a {
 img{
     border-radius: 5px;
 }
+h3{
+    padding: 20px 20px;
+}
 a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
+footer{
+    margin-top: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
 
 .logo:hover{
     background: rgba(255, 226, 3, 0.895);
@@ -75,6 +83,15 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
     display: flex;
     border-radius: 10px;
 }
+.my-work-content{
+    padding: 30px 30px; 
+}
+.my-work-container img{
+padding: 20px 20px;
+}
+.my-work-container h2{
+    margin-top: 30px;
+}
 
 @media (max-width: 600px) {
 .primary-link {
@@ -88,8 +105,3 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
         height: 511px;
     }
 }
-footer{
-    margin-top: 20px;
-        font-size: 10px;
-        text-align: center;
-    }
