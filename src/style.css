@@ -51,7 +51,8 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
     color: white;
 }
 .hero{
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 120px 20px; 
     text-align: center;
 }
 .hero p{
@@ -64,13 +65,31 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
 .top-projects img:hover{
     transform: scale(1.1);
 }
+.about-section{
+    margin-top: 50px;
+}
+.about-section h1{
+    margin-bottom: 10px;
+}
+.photo-of-me{
+    display: flex;
+    border-radius: 10px;
+}
 
 @media (max-width: 600px) {
 .primary-link {
     padding: 5px;
     font-size: 15px;
 }
-footer{
-        font-size: 10px;
+}
+@media (min-width:800px){
+    .photo-of-me{
+        width: 340px;
+        height: 511px;
     }
 }
+footer{
+    margin-top: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
