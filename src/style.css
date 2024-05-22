@@ -59,8 +59,7 @@ background: linear-gradient(135deg, rgb(255, 188, 188) 10%, rgb(252, 255, 0) 100
     color: white;
 }
 .hero{
-    margin-top: 30px;
-    padding: 120px 20px; 
+    padding: 80px 20px; 
     text-align: center;
 }
 .hero p{
@@ -92,16 +91,27 @@ padding: 20px 20px;
 .my-work-container h2{
     margin-top: 30px;
 }
-
+.sub-description{
+    font-size: 12px;
+}
 @media (max-width: 600px) {
 .primary-link {
     padding: 5px;
     font-size: 15px;
+}
+.project-titles{
+    font-size: 20px;
+}
+.hero{
+    padding:35px 15px;
 }
 }
 @media (min-width:800px){
     .photo-of-me{
         width: 340px;
         height: 511px;
+    }
+    .sub-description{
+        font-size: 14px;
     }
 }
