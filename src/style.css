@@ -111,10 +111,13 @@ padding: 20px 20px;
 }
 .content-container{
     margin-top: 50px;
+    margin-right: 100px;
     background-color: var(--secondary-color);
 }
 .content-container i{
     font-size: 40px;
+    margin-right: 10px;
+    justify-content: space-between;
 }
 .content-container i:hover{
     transform: scale(1.2);
@@ -130,6 +133,9 @@ padding: 20px 20px;
 .hero{
     padding:35px 15px;
 }
+.content-container p{
+    font-size: 12px;
+}
 }
 @media (min-width:800px){
     .photo-of-me{
@@ -138,5 +144,8 @@ padding: 20px 20px;
     }
     .sub-description{
         font-size: 14px;
+    }
+    .content-container{
+        margin-right: 70px;
     }
 }
